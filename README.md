@@ -2,142 +2,149 @@
 
 ## Project Overview
 
-This project demonstrates a real-world IT Asset Request Automation workflow developed using ServiceNow Flow Designer and Service Catalog.
-- Automate the process of requesting and managing IT assets in an organization. Employees can request items like laptops, software access, VPN access, or other IT services through a Service Portal.
+This project presents an automated IT Asset Request Management system developed using ServiceNow Service Catalog and Flow Designer.
 
-The system automates:
-- IT asset requests
-- Dynamic approvals
-- Request stage tracking
-- Catalog task generation
-- IT fulfillment workflow
+The application is designed to automate:
 
-The project simulates an enterprise-level laptop provisioning process where employees can request IT assets and the system automatically routes approvals and generates fulfillment tasks.
+* IT asset request submission
+* Approval management
+* Task creation
+* Request tracking
+* Asset fulfillment activities
 
----
-
-# Features
-
-- Service Catalog Item Creation
-- Catalog Variables
-- Dynamic Approval Workflow
-- Flow Designer Automation
-- Request Stage Visibility
-- Automated Catalog Tasks
-- Assignment Group Routing
-- IT Fulfillment Process
+The project represents a real-time enterprise workflow where employees can request laptops or other IT assets, and the system automatically processes approvals, creates fulfillment tasks, and updates request stages.
 
 ---
 
-# Technologies Used
+# Key Features
 
-| Technology | Purpose |
-|---|---|
-| ServiceNow | ITSM Platform |
-| Flow Designer | Workflow Automation |
-| Service Catalog | Request Management |
-| Catalog Tasks | Fulfillment Tasks |
-| Approval Engine | Dynamic Approvals |
-| Request Stages | Progress Tracking |
-
----
-
-# Workflow Architecture
-
-Employee → Service Catalog → Flow Designer → Dynamic Approval → Catalog Task → IT Team → Fulfillment → Request Closure
+* Automated Service Catalog Requests
+* Dynamic Variable Configuration
+* Approval Workflow Automation
+* Flow Designer Integration
+* Request Lifecycle Tracking
+* Automatic Catalog Task Creation
+* IT Team Task Assignment
+* End-to-End Fulfillment Process
 
 ---
 
-# Project Workflow
+# Technologies Implemented
 
-1. Employee submits laptop request
-2. Flow Designer triggers automatically
-3. Catalog variables are retrieved
-4. Approval workflow is initiated
-5. Request stages are updated
-6. Catalog task is generated
-7. Task assigned to IT Hardware Team
-8. Laptop provisioning completed
-9. Request closed
-
----
-
-# Dynamic Approval Logic
-
-## High Performance Laptop
-- Manager Approval
-- IT Team Approval
-
-## Standard Laptop
-- Manager Approval Only
+| Technology             | Usage                 |
+| ---------------------- | --------------------- |
+| ServiceNow             | IT Service Management |
+| Flow Designer          | Process Automation    |
+| Service Catalog        | Asset Request Portal  |
+| Requested Items (RITM) | Request Tracking      |
+| Catalog Tasks (SCTASK) | Task Management       |
+| Approval Engine        | Workflow Approvals    |
 
 ---
 
-# Modules Used
+# System Workflow
 
-- Service Catalog
-- Flow Designer
-- Requested Items (RITM)
-- Catalog Tasks (SCTASK)
-- Approval Actions
-- Request Stages
+Employee → Asset Request Portal → Approval Process → Flow Designer → Task Generation → IT Support Team → Asset Delivery → Closure
 
 ---
 
-# Screenshots
+# Execution Flow
 
-## Catalog Item
-Add screenshot of Service Catalog Item configuration.
-
-## Variables Configuration
-Add screenshot showing variables like:
-- Laptop Type
-- Cost Center
-- Justification
-
-## Flow Designer
-Add screenshot of complete Flow Designer workflow.
-
-## Approval Logic
-Add screenshot of dynamic approval conditions.
-
-## Request Stages
-Add screenshot showing request stages.
-
-## Catalog Task
-Add screenshot showing generated catalog task.
-
-## Final Fulfillment
-Add screenshot showing completed request.
+1. Employee raises a laptop request through Service Catalog
+2. Flow Designer gets triggered automatically
+3. Request variables are captured dynamically
+4. Approval process starts based on request type
+5. Request stages are updated automatically
+6. Catalog task is created for IT team
+7. Task gets assigned to hardware support team
+8. Asset provisioning process is completed
+9. Request is marked as closed
 
 ---
 
-# Business Benefits
+# Approval Conditions
 
-- Reduced manual effort
-- Faster approvals
-- Improved request visibility
-- Better IT fulfillment tracking
-- Enhanced employee experience
+## Premium / High-End Laptop
 
----
+* Manager Approval Required
+* IT Approval Required
 
-# Future Enhancements
+## Basic / Standard Laptop
 
-- SLA Integration
-- Email Notifications
-- Multi-Level Approvals
-- CMDB Integration
-- Dashboard Reporting
+* Only Manager Approval Required
 
 ---
 
-# Resume Project Description
+# ServiceNow Modules Used
 
-Developed an IT Asset Request Automation system using ServiceNow Flow Designer and Service Catalog. Implemented dynamic approvals, catalog task automation, request stages, and fulfillment workflows to streamline IT asset provisioning processes.
+* Service Catalog
+* Flow Designer
+* Requested Items (RITM)
+* Catalog Tasks (SCTASK)
+* Approval Workflow
+* Request Stages
 
 ---
 
-# Author
+# Screenshot Placeholders
+
+## Service Catalog Item
+
+Insert screenshot of catalog item setup.
+
+## Variable Configuration
+
+Insert screenshot showing:
+
+* Laptop Category
+* Cost Center
+* Business Justification
+
+## Flow Designer Automation
+
+Insert screenshot of workflow automation process.
+
+## Approval Workflow
+
+Insert screenshot of approval conditions and routing.
+
+## Request Tracking
+
+Insert screenshot showing request stage updates.
+
+## Task Generation
+
+Insert screenshot of automatically created catalog task.
+
+## Completed Fulfillment
+
+Insert screenshot of fulfilled request.
+
+---
+
+# Advantages of the Project
+
+* Minimizes manual processing
+* Improves operational efficiency
+* Faster approval handling
+* Better request monitoring
+* Simplifies IT asset provisioning
+* Enhances employee service experience
+
+---
+
+# Possible Future Improvements
+
+* SLA Monitoring
+* Automated Email Alerts
+* Advanced Multi-Level Approvals
+* CMDB Connectivity
+* Reporting Dashboards
+* Mobile Access Support
+
+---
+
+
+# Developed By
 
 Rajeev Reddy
